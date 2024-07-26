@@ -1,0 +1,133 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--font-family: "Open Sans", sans-serif;
+	--background-color: #f5f4f0;
+	--border-color: #d9d9d9;
+	--text-primary-color: ##1b1b1b;
+	--text-secondary-color: #333333;
+	--text-tertiary-color: #696969;
+	--text-headline-color: #e1624f;
+	--font-size-h1: 36px;
+	--font-size-h2: 32px;
+	--font-size-h3: 28px;
+	--font-size-headline: 16px;
+	--font-size-subtitle: 16px;
+	--font-size-paragraph: 16px;
+}
+
+body {
+	background-color: #f5f4f0;
+	font-family: var(--font-family);
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0; /* Remove margens padrão do corpo */
+}
+
+.container {
+	width: 1120px;
+	margin: 40px;
+}
+
+.title-page {
+	margin: 64px 0 64px 0;
+}
+
+.headline {
+	font-size: var(--font-size-headline);
+	color: var(--text-headline-color);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.description {
+	margin: 24px 0 24px 0;
+}
+
+.title-list {
+	margin: 64px 0 64px 0;
+}
+
+.subtitle {
+	font-size: var(--font-size-subtitle);
+	color: var(--text-secondary-color);
+	font-style: italic;
+	text-align: center;
+}
+
+img {
+	border-radius: 16px;
+}
+
+.imgTitle {
+	width: 100%;
+	height: 660px;
+	border-radius: 16px;
+}
+
+.imgContent {
+	width: 100%;
+	height: 350px;
+}
+
+.card-travel {
+	margin-bottom: 48px;
+}
+
+.ul-content {
+	list-style: disc; /* ou qualquer outro valor desejado, como circle, square, etc. */
+	padding-left: 20px; /* Adiciona espaço à esquerda para que os marcadores sejam visíveis */
+}
+
+.accent-blue {
+	color: #0c51a7;
+	font-weight: bold;
+}
+
+.accent-purple {
+	color: #591b98;
+}
+
+.accent-pink {
+	color: #e5245e;
+}
+
+.accent-orange {
+	color: #e95e10;
+}
+
+/* hr {
+	margin-top: 40px;
+} */
+
+h1 {
+	font-size: var(--font-size-h1);
+	color: var(--text-primary-color);
+}
+
+h2 {
+	font-size: var(--font-size-h2);
+	color: var(--text-primary-color);
+}
+
+h3 {
+	font-size: var(--font-size-h3);
+	color: var(--text-primary-color);
+	margin-top: 24px;
+}
+
+#p-description {
+	margin-top: 48px;
+}
+
+footer {
+	margin: 48px;
+	text-align: center;
+}
